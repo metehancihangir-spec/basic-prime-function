@@ -1,23 +1,21 @@
-# basic-prime-function
-Simple Python function to check if a number is prime.
-# Prime Number Checker
+# My First GitHub Project
 
-This is a simple Python project that checks whether a given number is prime or not.  
-It was created as one of my first GitHub repositories to practice Python basics and version control.
+A simple Python program that checks whether a number entered by the user is prime or not.  
+This project was created as my very first GitHub repository while learning Python basics.
 
 ---
 
 ## 🔧 How It Works
-- The program defines a function `is_prime(n)` that:
-  - Returns `True` if the number is prime
-  - Returns `False` otherwise
+- The program defines a function `prime_number_checker()` that:
+  - Asks the user to input a number
+  - Returns a message saying whether the number is prime or not
 
 ---
 
 ## ▶️ Example Usage
 
-```python
-from prime_checker import is_prime
+When you run the program, it will prompt:
 
-print(is_prime(7))   # True
-print(is_prime(10))  # False
+```text
+Write a number: 7
+7 is a prime number
