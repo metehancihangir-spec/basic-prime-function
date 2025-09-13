@@ -19,4 +19,9 @@ def prime_number_checker():
         return prime_number_checker()
 
 print(prime_number_checker())
+## Updates
+#- Added infinite loop functionality - program auto-restarts after each check
+#- Implemented input validation - handles non-numeric inputs without crashing
+#- Added user-friendly error messages for invalid inputs
+#- Maintained original prime checking algorithm - no changes to core logic
     
